@@ -7,7 +7,7 @@ import logging
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Set up the relative path to the 'opto/prepped/' directory
-prepped_dir = os.path.join(current_dir, 'opto', 'prepped')
+csv_dir = os.path.join(current_dir, 'opto', 'prepped')
 st.set_page_config(page_title="Showdown Optimizer", layout="wide")
 st.title("Showdown Optimizer")
 
