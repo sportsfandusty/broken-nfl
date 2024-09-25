@@ -101,7 +101,7 @@ def nearest_positive_definite(corr_mat):
 correlation_matrix = nearest_positive_definite(correlation_matrix)
 
 # Streamlit Interface
-st.title("DraftKings NFL Showdown Lineup Optimizer")
+st.title("DraftKings NFL Showdown Lineup Optimizer!!")
 
 # Sidebar Controls
 with st.sidebar:
