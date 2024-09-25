@@ -3,8 +3,11 @@ import pandas as pd
 import os
 import logging
 
-# Set up the file directory for CSV files
-csv_dir = "opto/prepped"
+# Get the current directory where the Streamlit app is located
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Set up the relative path to the 'opto/prepped/' directory
+prepped_dir = os.path.join(current_dir, 'opto', 'prepped')
 st.set_page_config(page_title="Showdown Optimizer", layout="wide")
 st.title("Showdown Optimizer")
 
